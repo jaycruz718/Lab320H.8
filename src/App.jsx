@@ -1,5 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+
+// Components
 import NavBar from './components/NavBar';
 
 // Pages
@@ -19,7 +21,7 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path='/' element={<PeoplePage />} />
+        <Route path='/people' element={<PeoplePage />} />
         <Route path='/starships' element={<StarshipsPage />} />
         <Route path='/planets' element={<PlanetsPage />} />
       </Routes>
