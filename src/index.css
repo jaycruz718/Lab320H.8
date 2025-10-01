@@ -1,13 +1,12 @@
 
-
-body {
+html, body{
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
   background-color: skyblue;
-  color: #fff;
-  justify-content: center;
+}
+
+*{
+  box-sizing: inherit;
 }

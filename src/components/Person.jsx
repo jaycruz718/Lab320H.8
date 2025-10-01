@@ -1,19 +1,9 @@
-export default function Person({ eyeColor, hairColor, skinColor, name, people }) {        
-    return (
-        <div>
-            <h2>{name}</h2>
-            <p>Eye Color: {eyeColor}</p>
-            <p>Hair Color: {hairColor}</p>
-            <p>Skin Color: {skinColor}</p>
-            {people && people.length > 0 ? (
-                <ul>
-                    {people.map((person, idx) => (
-                        <li key={idx}>{person}</li>
-                    ))}
-                </ul>
-            ) : (
-                <p>No people found.</p>
-            )}
-        </div>
-    );
+export default function Person({name, birth_year, eye_color}) {
+  return (
+    <div className="card1">
+      <h3>Name: {name}</h3>
+      <h2>Birth Year: {birth_year}</h2>
+      <h2>Eye Color: {eye_color}</h2>
+    </div>
+  );
 }

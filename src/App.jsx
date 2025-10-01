@@ -2,7 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 // Components
-import NavBar from './components/NavBar';
+import NavBar from './components/Nav/NavBar';
 
 // Pages
 import PeoplePage from './Pages/PeoplePage';
